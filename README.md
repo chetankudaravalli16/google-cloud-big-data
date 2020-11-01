@@ -73,10 +73,15 @@ Check path variables. Reinstall numpy.
 If no luck, install miniconda "Just for me" to temp-conda as described at 
 <https://github.com/conda/conda/issues/7714>. 
 
+Run in Ananconda Prompt as Admin:
+
+```Anaconda
+conda install numpy --force-reinstall
+```
+
 Run in Windows Command Prompt:
 
 ```Windows
-conda install numpy --force-reinstall
 C:\temp-conda\Scripts\conda.exe install -p C:\tools\Anaconda3 python=3.5 conda
 ```
 

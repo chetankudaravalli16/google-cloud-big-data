@@ -1,0 +1,8 @@
+conda install numpy --force-reinstall
+
+
+Collecting package metadata (repodata.json): done
+Solving environment: \ WARNING conda.resolve:_get_sat_solver_cls(57): Could not run SAT solver through interface 'pycosat'.
+failed with initial frozen solve. Retrying with flexible solve.
+
+CondaDependencyError: Cannot run solver. No functioning SAT implementations available.

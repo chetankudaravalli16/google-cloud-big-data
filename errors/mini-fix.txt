@@ -1,0 +1,787 @@
+
+Package pywavelets conflicts for:
+anaconda==2020.07=py38_0 -> pywavelets==1.1.1=py38he774522_0
+scikit-image -> pywavelets[version='>=0.4.0']
+anaconda==2020.07=py38_0 -> scikit-image==0.16.2=py38h47e9c7a_0 -> pywavelets[version='>=0.4.0']
+pywavelets
+
+Package wcwidth conflicts for:
+pytest-doctestplus -> pytest[version='>=4.0'] -> wcwidth
+pytest-arraydiff -> pytest -> wcwidth
+ipython -> prompt-toolkit[version='!=3.0.0,!=3.0.1,<3.1.0,>=2.0.0'] -> wcwidth
+pytest -> wcwidth
+prompt_toolkit -> wcwidth
+pytest-astropy -> pytest[version='>=3.1'] -> wcwidth
+astropy -> pytest -> wcwidth
+pytest-openfiles -> pytest[version='>=4.6'] -> wcwidth
+pytest-astropy-header -> pytest[version='>=3.0'] -> wcwidth
+jupyter_console -> prompt_toolkit[version='>=2.0.0,<3.1.0,!=3.0.0,!=3.0.1'] -> wcwidth
+anaconda==2020.07=py38_0 -> wcwidth==0.2.5=py_0
+pytest-remotedata -> pytest[version='>=3.1'] -> wcwidth
+anaconda==2020.07=py38_0 -> prompt-toolkit==3.0.5=py_0 -> wcwidth
+wcwidth
+
+Package msys2-conda-epoch conflicts for:
+m2w64-gmp -> msys2-conda-epoch[version='>=20160418']
+msys2-conda-epoch
+pywinpty -> m2w64-gcc-libs -> msys2-conda-epoch[version='>=20160418']
+anaconda==2020.07=py38_0 -> msys2-conda-epoch==20160418=1
+m2w64-gcc-libs -> msys2-conda-epoch[version='>=20160418']
+m2w64-libwinpthread-git -> msys2-conda-epoch[version='>=20160418']
+m2w64-gcc-libs-core -> msys2-conda-epoch[version='>=20160418']
+anaconda==2020.07=py38_0 -> m2w64-gcc-libgfortran==5.3.0=6 -> msys2-conda-epoch[version='>=20160418']
+m2w64-gcc-libgfortran -> msys2-conda-epoch[version='>=20160418']
+
+Package zope conflicts for:
+hypothesis -> attrs[version='>=16.0.0'] -> zope
+attrs -> zope
+pytest -> attrs[version='>=17.2.0'] -> zope
+anaconda==2020.07=py38_0 -> zope.interface==4.7.1=py38he774522_0 -> zope
+anaconda==2020.07=py38_0 -> zope==1.0=py38_1
+gevent -> zope.interface -> zope
+
+Package jupyterlab_server conflicts for:
+jupyterlab_server
+anaconda==2020.07=py38_0 -> jupyterlab_server==1.2.0=py_0
+jupyterlab -> jupyterlab_server[version='>=0.2.0,<0.3.0|>=1.0.0,<2.0.0|>=1.1.0,<2.0.0']
+_ipyw_jlab_nb_ext_conf -> jupyterlab -> jupyterlab_server[version='>=0.2.0,<0.3.0|>=1.0.0,<2.0.0|>=1.1.0,<2.0.0']
+anaconda==2020.07=py38_0 -> jupyterlab==2.1.5=py_0 -> jupyterlab_server[version='>=1.1.0,<2.0.0']
+
+Package tbb conflicts for:
+anaconda==2020.07=py38_0 -> tbb==2020.0=h74a9793_0
+numpy-base -> tbb4py -> tbb[version='>=2018.0.4|>=2018.0.5|>=2019.0|>=2019.1|>=2019.4|>=2020.0|>=2020.2|>=2020.3']
+tbb
+anaconda==2020.07=py38_0 -> numba==0.50.1=py38h47e9c7a_0 -> tbb[version='>=2020.0']
+numba -> tbb[version='>=2019.0|>=2019.1|>=2019.4|>=2020.0']
+
+Package conda-env conflicts for:
+conda-build -> conda[version='>=4.5'] -> conda-env[version='>=2.6']
+conda-env
+
+Package icu conflicts for:
+qt -> icu[version='>=58.2,<59.0a0']
+anaconda==2020.07=py38_0 -> icu==58.2=ha925a31_3
+anaconda==2020.07=py38_0 -> qt==5.9.7=vc14h73c81de_0 -> icu[version='>=58.2,<59.0a0']
+pyqt -> qt=5.9 -> icu[version='>=58.2,<59.0a0']
+icu
+
+Package ipywidgets conflicts for:
+jupyter -> ipywidgets
+ipywidgets
+anaconda==2020.07=py38_0 -> ipywidgets==7.5.1=py_0
+_ipyw_jlab_nb_ext_conf -> ipywidgets
+anaconda==2020.07=py38_0 -> jupyter==1.0.0=py38_7 -> ipywidgets
+
+Package py-lief conflicts for:
+py-lief
+conda-build -> py-lief
+anaconda==2020.07=py38_0 -> py-lief==0.10.1=py38ha925a31_0
+
+Package backports.shutil_which conflicts for:
+terminado -> pywinpty -> backports.shutil_which
+pywinpty -> backports.shutil_which
+
+Package flake8 conflicts for:
+anaconda==2020.07=py38_0 -> python-language-server==0.34.1=py38_0 -> flake8[version='>=3.8.0']
+flake8
+anaconda==2020.07=py38_0 -> flake8==3.8.3=py_0
+python-language-server -> flake8[version='>=3.8.0']
+spyder -> python-language-server[version='>=0.34.0,<1.0.0'] -> flake8[version='>=3.8.0']
+
+Package argon2-cffi conflicts for:
+jupyterlab_server -> notebook[version='>=4.2.0'] -> argon2-cffi
+notebook -> argon2-cffi
+jupyterlab -> notebook[version='>=4.3.1'] -> argon2-cffi
+widgetsnbextension -> notebook[version='>=4.4.1'] -> argon2-cffi
+jupyter -> notebook -> argon2-cffi
+
+Package distributed conflicts for:
+anaconda==2020.07=py38_0 -> distributed==2.20.0=py38_0
+dask -> distributed[version='>=1.16.0|>=1.19.0|>=1.20.0|>=1.21.0|>=1.22.0|>=1.23.0|>=1.23.1|>=1.23.2|>=1.23.3|>=1.24.2|>=1.25.0|>=1.25.3|>=1.26.0|>=1.26.1|>=1.27.0|>=1.28.0|>=2|>=2.10.0|>=2.11.0|>=2.12.0|>=2.13.0|>=2.14.0|>=2.15.0|>=2.16.0|>=2.17.0|>=2.18.0|>=2.19.0|>=2.20.0|>=2.22.0|>=2.23.0|>=2.24.0|>=2.25.0|>=2.26.0|>=2.27.0|>=2.29.0|>=2.30.0|>=2.9.2|>=2.9.1|>=2.9.0|>=2.8.1|>=2.8.0|>=2.7.0|>=2.6.0|>=2.5.2|>=2.5.0|>=2.4.0|>=2.3.0|>=2.2.0|>=1.21.1']
+distributed
+anaconda==2020.07=py38_0 -> dask==2.20.0=py_0 -> distributed[version='>=2.20.0']
+scikit-image -> dask[version='>=0.5'] -> distributed[version='>=1.16.0|>=1.19.0|>=1.20.0|>=1.21.0|>=1.22.0|>=1.23.0|>=1.23.1|>=1.23.2|>=1.23.3|>=1.24.2|>=1.25.0|>=1.25.3|>=1.26.0|>=1.26.1|>=1.27.0|>=1.28.0|>=2|>=2.10.0|>=2.11.0|>=2.12.0|>=2.13.0|>=2.14.0|>=2.15.0|>=2.16.0|>=2.17.0|>=2.18.0|>=2.19.0|>=2.20.0|>=2.22.0|>=2.23.0|>=2.24.0|>=2.25.0|>=2.26.0|>=2.27.0|>=2.29.0|>=2.30.0|>=2.9.2|>=2.9.1|>=2.9.0|>=2.8.1|>=2.8.0|>=2.7.0|>=2.6.0|>=2.5.2|>=2.5.0|>=2.4.0|>=2.3.0|>=2.2.0|>=1.21.1']
+
+Package pysocks conflicts for:
+pysocks
+urllib3 -> pysocks[version='>=1.5.6,<2.0,!=1.5.7']
+anaconda==2020.07=py38_0 -> urllib3==1.25.9=py_0 -> pysocks[version='>=1.5.6,<2.0,!=1.5.7']
+requests -> urllib3[version='>=1.21.1,<1.26,!=1.25.0,!=1.25.1'] -> pysocks[version='>=1.5.6,<2.0,!=1.5.7']
+anaconda==2020.07=py38_0 -> pysocks==1.7.1=py38_0
+
+Package libiconv conflicts for:
+anaconda==2020.07=py38_0 -> libarchive==3.4.2=h5e25573_0 -> libiconv[version='>=1.15,<2.0a0']
+libarchive -> libxml2[version='>=2.9.4,<2.10.0a0'] -> libiconv
+conda-build -> libarchive -> libiconv[version='>=1.15,<2.0a0']
+conda-package-handling -> libarchive[version='>=3.3.3'] -> libiconv[version='>=1.15,<2.0a0']
+python-libarchive-c -> libarchive -> libiconv[version='>=1.15,<2.0a0']
+libxml2 -> libiconv[version='>=1.15,<2.0a0']
+libiconv
+libarchive -> libiconv[version='>=1.15,<2.0a0']
+libxslt -> libxml2[version='>=2.9.10,<2.10.0a0'] -> libiconv[version='>=1.15,<2.0a0']
+lxml -> libxml2[version='>=2.9.10,<2.10.0a0'] -> libiconv[version='>=1.15,<2.0a0']
+anaconda==2020.07=py38_0 -> libiconv==1.15=h1df5818_7
+
+Package zipp conflicts for:
+pluggy -> importlib_metadata[version='>=0.12'] -> zipp[version='>=0.5']
+keyring -> importlib_metadata -> zipp[version='>=0.3.2|>=0.5']
+jsonschema -> importlib_metadata -> zipp[version='>=0.3.2|>=0.5']
+anaconda==2020.07=py38_0 -> importlib-metadata==1.7.0=py38_0 -> zipp[version='>=0.5']
+path -> importlib_metadata[version='>=0.5'] -> zipp[version='>=0.3.2|>=0.5']
+path.py -> importlib_metadata[version='>=0.5'] -> zipp[version='>=0.3.2|>=0.5']
+pytest -> importlib-metadata[version='>=0.12'] -> zipp[version='>=0.5']
+flake8 -> importlib-metadata -> zipp[version='>=0.5']
+zipp
+importlib_metadata -> zipp[version='>=0.3.2|>=0.5']
+anaconda==2020.07=py38_0 -> zipp==3.1.0=py_0
+
+Package zope.interface conflicts for:
+attrs -> zope.interface
+anaconda==2020.07=py38_0 -> gevent==20.6.2=py38he774522_0 -> zope.interface
+prometheus_client -> twisted -> zope.interface[version='>=4.0.2|>=4.4.2']
+hypothesis -> attrs[version='>=16.0.0'] -> zope.interface
+pytest -> attrs[version='>=17.2.0'] -> zope.interface
+gevent -> zope.interface
+anaconda==2020.07=py38_0 -> zope.interface==4.7.1=py38he774522_0
+
+Package pbr conflicts for:
+pytables -> mock -> pbr
+mock -> pbr
+
+Package pydocstyle conflicts for:
+pydocstyle
+anaconda==2020.07=py38_0 -> python-language-server==0.34.1=py38_0 -> pydocstyle[version='>=2.0.0']
+python-language-server -> pydocstyle[version='>=2.0.0']
+spyder -> python-language-server[version='>=0.34.0,<1.0.0'] -> pydocstyle[version='>=2.0.0']
+anaconda==2020.07=py38_0 -> pydocstyle==5.0.2=py_0
+
+Package et_xmlfile conflicts for:
+anaconda==2020.07=py38_0 -> et_xmlfile==1.0.1=py_1001
+openpyxl -> et_xmlfile
+et_xmlfile
+anaconda==2020.07=py38_0 -> openpyxl==3.0.4=py_0 -> et_xmlfile
+
+Package zict conflicts for:
+anaconda==2020.07=py38_0 -> zict==2.0.0=py_0
+distributed -> zict[version='>=0.1.2|>=0.1.3']
+dask -> distributed[version='>=2.30.0'] -> zict[version='>=0.1.2|>=0.1.3']
+anaconda==2020.07=py38_0 -> distributed==2.20.0=py38_0 -> zict[version='>=0.1.3']
+zict
+
+Package console_shortcut conflicts for:
+console_shortcut
+anaconda==2020.07=py38_0 -> console_shortcut==0.1.1=4
+
+Package lazy-object-proxy conflicts for:
+astroid -> lazy-object-proxy=1.4
+anaconda==2020.07=py38_0 -> astroid==2.4.2=py38_0 -> lazy-object-proxy=1.4
+anaconda==2020.07=py38_0 -> lazy-object-proxy==1.4.3=py38he774522_0
+lazy-object-proxy
+pylint -> astroid[version='>=2.4.0,<=2.5'] -> lazy-object-proxy=1.4
+
+Package pywinpty conflicts for:
+pywinpty
+anaconda==2020.07=py38_0 -> pywinpty==0.5.7=py38_0
+terminado -> pywinpty
+notebook -> terminado[version='>=0.8.1'] -> pywinpty
+anaconda==2020.07=py38_0 -> terminado==0.8.3=py38_0 -> pywinpty
+
+Package yaml conflicts for:
+anaconda==2020.07=py38_0 -> pyyaml==5.3.1=py38he774522_1 -> yaml[version='>=0.2.5,<0.3.0a0']
+ruamel_yaml -> yaml[version='>=0.1.7,<0.2.0a0|>=0.2.5,<0.3.0a0']
+anaconda-project -> ruamel_yaml -> yaml[version='>=0.1.7,<0.2.0a0|>=0.2.5,<0.3.0a0']
+pyyaml -> yaml[version='>=0.1.7,<0.2.0a0|>=0.2.5,<0.3.0a0']
+yaml
+bokeh -> pyyaml[version='>=3.10'] -> yaml[version='>=0.1.7,<0.2.0a0|>=0.2.5,<0.3.0a0']
+conda-verify -> pyyaml -> yaml[version='>=0.1.7,<0.2.0a0|>=0.2.5,<0.3.0a0']
+anaconda-client -> pyyaml[version='>=3.12'] -> yaml[version='>=0.1.7,<0.2.0a0|>=0.2.5,<0.3.0a0']
+conda -> ruamel_yaml[version='>=0.11.14,<0.16'] -> yaml[version='>=0.1.7,<0.2.0a0|>=0.2.5,<0.3.0a0']
+watchdog -> pyyaml[version='>=3.10'] -> yaml[version='>=0.1.7,<0.2.0a0|>=0.2.5,<0.3.0a0']
+anaconda==2020.07=py38_0 -> yaml==0.2.5=he774522_0
+dask-core -> pyyaml -> yaml[version='>=0.1.7,<0.2.0a0|>=0.2.5,<0.3.0a0']
+anaconda-navigator -> pyyaml[version='>=5.1'] -> yaml[version='>=0.1.7,<0.2.0a0|>=0.2.5,<0.3.0a0']
+conda-build -> pyyaml -> yaml[version='>=0.1.7,<0.2.0a0|>=0.2.5,<0.3.0a0']
+distributed -> pyyaml -> yaml[version='>=0.1.7,<0.2.0a0|>=0.2.5,<0.3.0a0']
+
+Package xmltodict conflicts for:
+anaconda-navigator -> xmltodict
+xmltodict
+
+Package brotlipy conflicts for:
+requests -> urllib3[version='>=1.21.1,<1.26,!=1.25.0,!=1.25.1'] -> brotlipy[version='>=0.6.0']
+urllib3 -> brotlipy[version='>=0.6.0']
+anaconda==2020.07=py38_0 -> brotlipy==0.7.0=py38he774522_1000
+anaconda==2020.07=py38_0 -> urllib3==1.25.9=py_0 -> brotlipy[version='>=0.6.0']
+
+Package winpty conflicts for:
+anaconda==2020.07=py38_0 -> pywinpty==0.5.7=py38_0 -> winpty
+pywinpty -> winpty[version='>=0.4.3,<1.0a0']
+winpty
+terminado -> pywinpty -> winpty[version='>=0.4.3,<1.0a0']
+anaconda==2020.07=py38_0 -> winpty==0.4.3=4
+
+Package msgpack-python conflicts for:
+distributed -> msgpack-python[version='>=0.6.0']
+msgpack-python
+anaconda==2020.07=py38_0 -> msgpack-python==1.0.0=py38h74a9793_1
+anaconda==2020.07=py38_0 -> distributed==2.20.0=py38_0 -> msgpack-python[version='>=0.6.0']
+pip -> cachecontrol -> msgpack-python
+dask -> distributed[version='>=2.30.0'] -> msgpack-python[version='>=0.6.0']
+
+Package llvmlite conflicts for:
+anaconda==2020.07=py38_0 -> numba==0.50.1=py38h47e9c7a_0 -> llvmlite[version='>=0.33.0|>=0.33.0,<0.34.0a0']
+llvmlite
+numba -> llvmlite[version='0.20.*|0.21.*|0.22.*|0.23.*|0.24.*|>=0.25.0,<0.26.0a0|>=0.26.0,<0.27.0a0|>=0.27.0,<0.28.0a0|>=0.28.0,<0.29.0a0|>=0.29.0,<0.30.0a0|>=0.29.0|>=0.30.0,<0.31.0a0|>=0.30.0|>=0.31.0,<0.32.0a0|>=0.31.0|>=0.32.0,<0.33.0a0|>=0.32.0|>=0.32.1,<0.33.0a0|>=0.32.1|>=0.33.0,<0.34.0a0|>=0.33.0|>=0.34.0,<0.35']
+anaconda==2020.07=py38_0 -> llvmlite==0.33.0=py38ha925a31_0
+
+Package pyyaml conflicts for:
+scikit-image -> dask-core[version='>=0.15.0'] -> pyyaml
+anaconda-navigator -> pyyaml[version='>=5.1']
+distributed -> pyyaml
+pyyaml
+anaconda-navigator -> anaconda-client[version='>=1.6.14'] -> pyyaml[version='>=3.12']
+dask -> bokeh[version='>=1.0.0,!=2.0.0'] -> pyyaml[version='>=3.10']
+bokeh -> pyyaml[version='>=3.10']
+conda-verify -> pyyaml
+anaconda-client -> pyyaml[version='>=3.12']
+watchdog -> pyyaml[version='>=3.10']
+anaconda==2020.07=py38_0 -> anaconda-client==1.7.2=py38_0 -> pyyaml[version='>=3.10|>=3.12']
+spyder -> watchdog -> pyyaml[version='>=3.10']
+dask-core -> pyyaml
+anaconda==2020.07=py38_0 -> pyyaml==5.3.1=py38he774522_1
+anaconda-project -> anaconda-client -> pyyaml[version='>=3.12']
+conda-build -> pyyaml
+
+Package numpydoc conflicts for:
+jedi -> numpydoc
+anaconda==2020.07=py38_0 -> numpydoc==1.1.0=py_0
+numpydoc
+anaconda==2020.07=py38_0 -> spyder==4.1.4=py38_0 -> numpydoc[version='>=0.6.0']
+spyder -> numpydoc[version='>=0.6.0']
+ipython -> jedi[version='>=0.10'] -> numpydoc
+
+Package kiwisolver conflicts for:
+scikit-image -> matplotlib-base[version='>=2.0.0'] -> kiwisolver[version='>=1.0.1']
+matplotlib-base -> kiwisolver[version='>=1.0.1']
+anaconda==2020.07=py38_0 -> kiwisolver==1.2.0=py38h74a9793_0
+seaborn -> matplotlib[version='>=2.1.2'] -> kiwisolver
+matplotlib -> matplotlib-base[version='>=3.3.2,<3.3.3.0a0'] -> kiwisolver[version='>=1.0.1']
+kiwisolver
+matplotlib -> kiwisolver
+nltk -> matplotlib -> kiwisolver
+anaconda==2020.07=py38_0 -> matplotlib-base==3.2.2=py38h64f37c6_0 -> kiwisolver
+bokeh -> matplotlib -> kiwisolver
+
+Package filelock conflicts for:
+anaconda==2020.07=py38_0 -> filelock==3.0.12=py_0
+filelock
+conda-build -> filelock
+
+Package jupyter_console conflicts for:
+jupyter -> jupyter_console
+anaconda==2020.07=py38_0 -> jupyter==1.0.0=py38_7 -> jupyter_console
+anaconda==2020.07=py38_0 -> jupyter_console==6.1.0=py_0
+jupyter_console
+
+Package lzo conflicts for:
+conda-build -> libarchive -> lzo[version='>=2.10,<3.0a0']
+conda-package-handling -> libarchive[version='>=3.3.3'] -> lzo[version='>=2.10,<3.0a0']
+python-libarchive-c -> libarchive -> lzo[version='>=2.10,<3.0a0']
+pytables -> lzo[version='>=2.10,<3.0a0']
+lzo
+anaconda==2020.07=py38_0 -> pytables==3.6.1=py38ha5be198_0 -> lzo[version='>=2.10,<3.0a0']
+anaconda==2020.07=py38_0 -> lzo==2.10=he774522_2
+libarchive -> lzo[version='>=2.10,<3.0a0']
+
+Package widgetsnbextension conflicts for:
+anaconda==2020.07=py38_0 -> widgetsnbextension==3.5.1=py38_0
+_ipyw_jlab_nb_ext_conf -> ipywidgets -> widgetsnbextension[version='>=3.0.0|>=3.1.0,<4.0|>=3.2.0,<4.0.0|>=3.3.0,<3.4.0|>=3.4.0,<3.5.0|>=3.5.0,<3.6.0']
+jupyter -> ipywidgets -> widgetsnbextension[version='>=3.0.0|>=3.1.0,<4.0|>=3.2.0,<4.0.0|>=3.3.0,<3.4.0|>=3.4.0,<3.5.0|>=3.5.0,<3.6.0']
+widgetsnbextension
+ipywidgets -> widgetsnbextension[version='>=3.0.0|>=3.1.0,<4.0|>=3.2.0,<4.0.0|>=3.3.0,<3.4.0|>=3.4.0,<3.5.0|>=3.5.0,<3.6.0']
+anaconda==2020.07=py38_0 -> ipywidgets==7.5.1=py_0 -> widgetsnbextension[version='>=3.5.0,<3.6.0']
+_ipyw_jlab_nb_ext_conf -> widgetsnbextension
+
+Package libspatialindex conflicts for:
+spyder -> rtree[version='>=0.8.3'] -> libspatialindex[version='>=1.9.3,<1.9.4.0a0']
+libspatialindex
+anaconda==2020.07=py38_0 -> libspatialindex==1.9.3=h33f27b4_0
+anaconda==2020.07=py38_0 -> rtree==0.9.4=py38h21ff451_1 -> libspatialindex[version='>=1.9.3,<1.9.4.0a0']
+rtree -> libspatialindex[version='>=1.9.3,<1.9.4.0a0']
+
+Package pycparser conflicts for:
+bcrypt -> cffi[version='>=1.1'] -> pycparser
+cffi -> pycparser
+anaconda==2020.07=py38_0 -> cffi==1.14.0=py38h7a1dbc1_0 -> pycparser
+pycparser
+gevent -> cffi[version='>=1.11.5'] -> pycparser
+pynacl -> cffi[version='>=1.4.1'] -> pycparser
+cryptography -> cffi[version='!=1.11.3,>=1.8'] -> pycparser
+anaconda==2020.07=py38_0 -> pycparser==2.20=py_2
+
+Package iniconfig conflicts for:
+pytest-doctestplus -> pytest[version='>=4.0'] -> iniconfig
+pytest -> iniconfig
+pytest-remotedata -> pytest[version='>=3.1'] -> iniconfig
+pytest-astropy -> pytest[version='>=3.1'] -> iniconfig
+astropy -> pytest -> iniconfig
+pytest-astropy-header -> pytest[version='>=3.0'] -> iniconfig
+pytest-arraydiff -> pytest -> iniconfig
+pytest-openfiles -> pytest[version='>=4.6'] -> iniconfig
+
+Package pyasn1 conflicts for:
+paramiko -> pyasn1[version='>=0.1.7']
+prometheus_client -> twisted -> pyasn1
+spyder -> paramiko[version='>=2.4.0'] -> pyasn1[version='>=0.1.7']
+
+Package matplotlib conflicts for:
+seaborn -> matplotlib[version='>=1.4.3|>=2.1.2']
+bokeh -> matplotlib
+anaconda==2020.07=py38_0 -> scikit-image==0.16.2=py38h47e9c7a_0 -> matplotlib[version='>=2.0.0|>=2.1.2']
+dask -> bokeh -> matplotlib
+matplotlib
+anaconda==2020.07=py38_0 -> matplotlib==3.2.2=0
+nltk -> matplotlib
+scikit-image -> matplotlib[version='>=1.3.1|>=2.0.0']
+
+Package xlwt conflicts for:
+anaconda==2020.07=py38_0 -> xlwt==1.3.0=py38_0
+xlwt
+
+Package backports.weakref conflicts for:
+backports.weakref
+conda-verify -> backports.tempfile -> backports.weakref
+backports.tempfile -> backports.weakref
+
+Package babel conflicts for:
+babel
+anaconda==2020.07=py38_0 -> sphinx==3.1.2=py_0 -> babel[version='>=1.3,!=2.0']
+spyder -> sphinx[version='>=0.6.6'] -> babel[version='>=1.3,!=2.0']
+sphinx -> babel[version='>=1.3,!=2.0']
+numpydoc -> sphinx -> babel[version='>=1.3,!=2.0']
+anaconda==2020.07=py38_0 -> babel==2.8.0=py_0
+
+Package sphinxcontrib-htmlhelp conflicts for:
+sphinx -> sphinxcontrib-htmlhelp
+numpydoc -> sphinx -> sphinxcontrib-htmlhelp
+anaconda==2020.07=py38_0 -> sphinx==3.1.2=py_0 -> sphinxcontrib-htmlhelp
+spyder -> sphinx[version='>=0.6.6'] -> sphinxcontrib-htmlhelp
+anaconda==2020.07=py38_0 -> sphinxcontrib-htmlhelp==1.0.3=py_0
+sphinxcontrib-htmlhelp
+
+Package webencodings conflicts for:
+python=3.5 -> pip -> webencodings
+html5lib -> webencodings
+webencodings
+anaconda==2020.07=py38_0 -> bleach==3.1.5=py_0 -> webencodings
+nbconvert -> bleach -> webencodings
+bleach -> webencodings
+bcrypt -> pip -> webencodings
+anaconda==2020.07=py38_0 -> webencodings==0.5.1=py38_1
+pip -> webencodings
+
+Package astropy conflicts for:
+anaconda==2020.07=py38_0 -> astropy==4.0.1.post1=py38he774522_1
+astropy
+
+Package argh conflicts for:
+anaconda==2020.07=py38_0 -> watchdog==0.10.3=py38_0 -> argh[version='>=0.24.1']
+argh
+spyder -> watchdog -> argh[version='>=0.24.1']
+watchdog -> argh[version='>=0.24.1']
+anaconda==2020.07=py38_0 -> argh==0.26.2=py38_0
+
+Package bitarray conflicts for:
+anaconda==2020.07=py38_0 -> bitarray==1.4.0=py38he774522_0
+bitarray
+
+Package libssh2 conflicts for:
+libssh2
+libcurl -> libssh2[version='>=1.8.0,<2.0a0|>=1.8.2,<2.0a0|>=1.9.0,<2.0a0']
+anaconda==2020.07=py38_0 -> libssh2==1.9.0=h7a1dbc1_1
+anaconda==2020.07=py38_0 -> curl==7.71.1=h2a8f88b_1 -> libssh2[version='>=1.9.0,<2.0a0']
+curl -> libssh2[version='1.*|>=1.8.0,<2.0a0|>=1.8.2,<2.0a0|>=1.9.0,<2.0a0']
+pycurl -> libcurl[version='>=7.71.1,<8.0a0'] -> libssh2[version='1.*|>=1.8.0,<2.0a0|>=1.8.2,<2.0a0|>=1.9.0,<2.0a0']
+
+Package clyent conflicts for:
+anaconda-client -> clyent[version='>=1.2.0|>=1.2.2']
+anaconda-project -> anaconda-client -> clyent[version='>=1.2.0|>=1.2.2']
+anaconda==2020.07=py38_0 -> anaconda-client==1.7.2=py38_0 -> clyent[version='>=1.2.0']
+clyent
+anaconda-navigator -> anaconda-client[version='>=1.6.14'] -> clyent[version='>=1.2.0|>=1.2.2']
+anaconda==2020.07=py38_0 -> clyent==1.2.2=py38_1
+
+Package scikit-learn conflicts for:
+anaconda==2020.07=py38_0 -> scikit-learn==0.23.1=py38h25d0782_0
+scikit-learn
+nltk -> scikit-learn
+
+Package spyder-kernels conflicts for:
+anaconda==2020.07=py38_0 -> spyder==4.1.4=py38_0 -> spyder-kernels[version='>=1.9.2,<1.10.0']
+spyder-kernels
+anaconda==2020.07=py38_0 -> spyder-kernels==1.9.2=py38_0
+spyder -> spyder-kernels[version='0.*|>=0.1,<1|>=0.4.2,<1|>=0.4.3,<1|>=0.5.0,<1|>=1.8.1,<1.9.0|>=1.9.0,<1.10.0|>=1.9.1,<1.10.0|>=1.9.2,<1.10.0|>=1.9.4,<1.10.0']
+
+Package conda-package-handling conflicts for:
+conda-package-handling
+conda-build -> conda[version='>=4.5'] -> conda-package-handling[version='>=1.0.4|>=1.3.0']
+conda-verify -> conda-package-handling[version='>=1.0.4|>=1.1']
+conda -> conda-package-handling[version='>=1.3.0']
+conda-build -> conda-package-handling[version='>=1.1|>=1.3']
+
+Package pathtools conflicts for:
+pathtools
+spyder -> watchdog -> pathtools[version='>=0.1.1']
+watchdog -> pathtools[version='>=0.1.1']
+anaconda==2020.07=py38_0 -> watchdog==0.10.3=py38_0 -> pathtools[version='>=0.1.1']
+anaconda==2020.07=py38_0 -> pathtools==0.1.2=py_1
+
+Package anaconda-project conflicts for:
+anaconda-project
+anaconda==2020.07=py38_0 -> anaconda-project==0.8.4=py_0
+anaconda-navigator -> anaconda-project[version='>=0.4']
+
+Package multipledispatch conflicts for:
+multipledispatch
+anaconda==2020.07=py38_0 -> multipledispatch==0.6.0=py38_0
+
+Package pytest-arraydiff conflicts for:
+pytest-astropy -> pytest-arraydiff[version='>=0.1']
+astropy -> pytest-astropy -> pytest-arraydiff[version='>=0.1']
+pytest-arraydiff
+
+Package scikit-image conflicts for:
+anaconda==2020.07=py38_0 -> scikit-image==0.16.2=py38h47e9c7a_0
+scikit-image
+
+Package dask conflicts for:
+scikit-image -> dask[version='>=0.5']
+dask
+anaconda==2020.07=py38_0 -> dask==2.20.0=py_0
+
+Package pylint conflicts for:
+spyder -> pylint[version='>=0.25|>=1.0']
+python-language-server -> pylint
+pylint
+anaconda==2020.07=py38_0 -> python-language-server==0.34.1=py38_0 -> pylint[version='>=1.0']
+anaconda==2020.07=py38_0 -> pylint==2.5.3=py38_0
+
+Package bokeh conflicts for:
+bokeh
+scikit-image -> dask[version='>=0.5'] -> bokeh[version='>=0.13.0|>=1.0.0|>=1.0.0,!=2.0.0']
+dask -> bokeh[version='>=0.13.0|>=1.0.0|>=1.0.0,!=2.0.0']
+anaconda==2020.07=py38_0 -> dask==2.20.0=py_0 -> bokeh[version='>=1.0.0,!=2.0.0']
+anaconda==2020.07=py38_0 -> bokeh==2.1.1=py38_0
+
+Package watchdog conflicts for:
+anaconda==2020.07=py38_0 -> watchdog==0.10.3=py38_0
+anaconda==2020.07=py38_0 -> spyder==4.1.4=py38_0 -> watchdog
+watchdog
+spyder -> watchdog
+
+Package pywin32-ctypes conflicts for:
+anaconda==2020.07=py38_0 -> keyring==21.2.1=py38_0 -> pywin32-ctypes
+anaconda==2020.07=py38_0 -> pywin32-ctypes==0.2.0=py38_1000
+spyder -> keyring -> pywin32-ctypes[version='!=0.1.0,!=0.1.1']
+keyring -> pywin32-ctypes[version='!=0.1.0,!=0.1.1']
+pywin32-ctypes
+
+Package ply conflicts for:
+ply
+anaconda==2020.07=py38_0 -> ply==3.11=py38_0
+
+Package fastcache conflicts for:
+fastcache
+anaconda==2020.07=py38_0 -> fastcache==1.1.0=py38he774522_0
+anaconda==2020.07=py38_0 -> sympy==1.6.1=py38_0 -> fastcache
+sympy -> fastcache
+
+Package tbb4py conflicts for:
+numpy-base -> tbb4py
+mkl_fft -> numpy-base[version='>=1.0.6,<2.0a0'] -> tbb4py
+mkl_random -> numpy-base[version='>=1.0.2,<2.0a0'] -> tbb4py
+numpy -> numpy-base==1.15.4=py27h2753ae9_0 -> tbb4py
+
+Package alabaster conflicts for:
+numpydoc -> sphinx -> alabaster[version='>=0.7,<0.8']
+anaconda==2020.07=py38_0 -> sphinx==3.1.2=py_0 -> alabaster[version='>=0.7,<0.8']
+spyder -> sphinx[version='>=0.6.6'] -> alabaster[version='>=0.7,<0.8']
+alabaster
+anaconda==2020.07=py38_0 -> alabaster==0.7.12=py_0
+sphinx -> alabaster[version='>=0.7,<0.8']
+
+Package sphinxcontrib conflicts for:
+sphinxcontrib
+sphinxcontrib-websupport -> sphinxcontrib
+anaconda==2020.07=py38_0 -> sphinxcontrib==1.0=py38_1
+anaconda==2020.07=py38_0 -> sphinxcontrib-websupport==1.2.3=py_0 -> sphinxcontrib
+sphinx -> sphinxcontrib-websupport -> sphinxcontrib
+
+Package m2w64-gcc-libs-core conflicts for:
+pywinpty -> m2w64-gcc-libs -> m2w64-gcc-libs-core
+m2w64-gcc-libs-core
+anaconda==2020.07=py38_0 -> m2w64-gcc-libgfortran==5.3.0=6 -> m2w64-gcc-libs-core
+m2w64-gcc-libs -> m2w64-gcc-libs-core
+anaconda==2020.07=py38_0 -> m2w64-gcc-libs-core==5.3.0=7
+m2w64-gcc-libgfortran -> m2w64-gcc-libs-core
+
+Package numexpr conflicts for:
+anaconda==2020.07=py38_0 -> pytables==3.6.1=py38ha5be198_0 -> numexpr
+pytables -> numexpr
+numexpr
+anaconda==2020.07=py38_0 -> numexpr==2.7.1=py38h25d0782_0
+
+Package spyder conflicts for:
+anaconda==2020.07=py38_0 -> spyder==4.1.4=py38_0
+spyder
+
+Package jaraco.itertools conflicts for:
+zipp -> jaraco.itertools
+importlib_metadata -> zipp[version='>=0.5'] -> jaraco.itertools
+
+Package pynacl conflicts for:
+spyder -> paramiko[version='>=2.4.0'] -> pynacl[version='>=1.0.1']
+anaconda==2020.07=py38_0 -> pynacl==1.4.0=py38h62dcd97_1
+anaconda==2020.07=py38_0 -> paramiko==2.7.1=py_0 -> pynacl[version='>=1.0.1']
+paramiko -> pynacl[version='>=1.0.1']
+pynacl
+
+Package pickleshare conflicts for:
+ipywidgets -> ipython[version='>=4.0.0'] -> pickleshare
+pickleshare
+ipykernel -> ipython[version='>=5.0'] -> pickleshare
+spyder -> pickleshare[version='>=0.4']
+anaconda==2020.07=py38_0 -> ipython==7.16.1=py38h5ca1d4c_0 -> pickleshare[version='>=0.4']
+anaconda==2020.07=py38_0 -> pickleshare==0.7.5=py38_1000
+ipython -> pickleshare
+jupyter_console -> ipython -> pickleshare
+
+Package win_unicode_console conflicts for:
+anaconda==2020.07=py38_0 -> win_unicode_console==0.5=py38_0
+ipython -> win_unicode_console[version='>=0.5']
+ipywidgets -> ipython[version='>=4.0.0'] -> win_unicode_console[version='>=0.5']
+jupyter_console -> ipython -> win_unicode_console[version='>=0.5']
+win_unicode_console
+ipykernel -> ipython[version='>=5.0'] -> win_unicode_console[version='>=0.5']
+
+Package cryptography-vectors conflicts for:
+cryptography -> cryptography-vectors=2.3
+pyopenssl -> cryptography[version='>=2.2.1'] -> cryptography-vectors=2.3
+paramiko -> cryptography[version='>=1.5'] -> cryptography-vectors=2.3
+urllib3 -> cryptography[version='>=1.3.4'] -> cryptography-vectors=2.3
+
+Package pexpect conflicts for:
+anaconda==2020.07=py38_0 -> pexpect==4.8.0=py38_0
+spyder -> pexpect[version='>=4.4.0']
+anaconda==2020.07=py38_0 -> spyder==4.1.4=py38_0 -> pexpect[version='>=4.4.0']
+pexpect
+
+Package imageio conflicts for:
+imageio
+scikit-image -> imageio[version='>=2.1.0|>=2.3.0']
+anaconda==2020.07=py38_0 -> scikit-image==0.16.2=py38h47e9c7a_0 -> imageio[version='>=2.3.0']
+anaconda==2020.07=py38_0 -> imageio==2.9.0=py_0
+
+Package path conflicts for:
+path.py -> path[version='<13.2']
+anaconda==2020.07=py38_0 -> path.py==12.4.0=0 -> path[version='<13.2']
+path
+anaconda==2020.07=py38_0 -> path==13.1.0=py38_0
+
+Package qtawesome conflicts for:
+spyder -> qtawesome[version='>=0.4.1|>=0.5.7']
+anaconda==2020.07=py38_0 -> qtawesome==0.7.2=py_0
+anaconda==2020.07=py38_0 -> spyder==4.1.4=py38_0 -> qtawesome[version='>=0.5.7']
+qtawesome
+
+Package sphinxcontrib-applehelp conflicts for:
+sphinx -> sphinxcontrib-applehelp
+anaconda==2020.07=py38_0 -> sphinxcontrib-applehelp==1.0.2=py_0
+sphinxcontrib-applehelp
+spyder -> sphinx[version='>=0.6.6'] -> sphinxcontrib-applehelp
+numpydoc -> sphinx -> sphinxcontrib-applehelp
+anaconda==2020.07=py38_0 -> sphinx==3.1.2=py_0 -> sphinxcontrib-applehelp
+
+Package asn1crypto conflicts for:
+pyopenssl -> cryptography[version='>=2.8'] -> asn1crypto[version='>=0.21.0']
+paramiko -> cryptography[version='>=2.5'] -> asn1crypto[version='>=0.21.0']
+anaconda==2020.07=py38_0 -> asn1crypto==1.3.0=py38_0
+asn1crypto
+cryptography -> asn1crypto[version='>=0.21.0']
+urllib3 -> cryptography[version='>=1.3.4'] -> asn1crypto[version='>=0.21.0']
+
+Package paramiko conflicts for:
+anaconda==2020.07=py38_0 -> paramiko==2.7.1=py_0
+paramiko
+spyder -> paramiko[version='>=2.4.0']
+anaconda==2020.07=py38_0 -> spyder==4.1.4=py38_0 -> paramiko[version='>=2.4.0']
+
+Package curl conflicts for:
+anaconda==2020.07=py38_0 -> curl==7.71.1=h2a8f88b_1
+pycurl -> curl[version='7.55.*|>=7.55.1,<8.0a0']
+curl
+
+Package pyreadline conflicts for:
+anaconda==2020.07=py38_0 -> pyreadline==2.1=py38_1
+pyreadline
+h5py -> pyreadline
+anaconda==2020.07=py38_0 -> h5py==2.10.0=py38h5e291fa_0 -> pyreadline
+
+Package xlrd conflicts for:
+xlrd
+anaconda==2020.07=py38_0 -> xlrd==1.2.0=py_0
+
+Package anaconda-client conflicts for:
+anaconda-client
+anaconda==2020.07=py38_0 -> anaconda-client==1.7.2=py38_0
+anaconda==2020.07=py38_0 -> anaconda-project==0.8.4=py_0 -> anaconda-client
+anaconda-navigator -> anaconda-client[version='>=1.6|>=1.6.12|>=1.6.14']
+anaconda-project -> anaconda-client
+
+Package blosc conflicts for:
+anaconda==2020.07=py38_0 -> blosc==1.19.0=h7bd577a_0
+anaconda==2020.07=py38_0 -> pytables==3.6.1=py38ha5be198_0 -> blosc[version='>=1.16.3,<2.0a0']
+blosc
+pytables -> blosc[version='>=1.14.3,<2.0a0|>=1.14.4,<2.0a0|>=1.15.0,<2.0a0|>=1.16.3,<2.0a0']
+
+Package keyring conflicts for:
+spyder -> keyring
+anaconda==2020.07=py38_0 -> spyder==4.1.4=py38_0 -> keyring
+keyring
+anaconda==2020.07=py38_0 -> keyring==21.2.1=py38_0
+
+Package intervaltree conflicts for:
+intervaltree
+anaconda==2020.07=py38_0 -> intervaltree==3.0.2=py_1
+anaconda==2020.07=py38_0 -> spyder==4.1.4=py38_0 -> intervaltree
+spyder -> intervaltree
+
+Package pep8 conflicts for:
+anaconda==2020.07=py38_0 -> pep8==1.7.1=py38_0
+pep8
+
+Package sortedcollections conflicts for:
+sortedcollections
+anaconda==2020.07=py38_0 -> sortedcollections==1.2.1=py_0
+
+Package gevent conflicts for:
+anaconda==2020.07=py38_0 -> gevent==20.6.2=py38he774522_0
+gevent
+
+Package pytest-remotedata conflicts for:
+astropy -> pytest-astropy -> pytest-remotedata[version='>=0.2|>=0.2.1|>=0.3.0|>=0.3.1']
+pytest-remotedata
+pytest-astropy -> pytest-remotedata[version='>=0.2|>=0.2.1|>=0.3.0|>=0.3.1']
+
+Package itsdangerous conflicts for:
+itsdangerous
+anaconda==2020.07=py38_0 -> itsdangerous==1.1.0=py_0
+anaconda==2020.07=py38_0 -> flask==1.1.2=py_0 -> itsdangerous[version='>=0.24']
+flask -> itsdangerous[version='>=0.21|>=0.24']
+
+Package pycrypto conflicts for:
+paramiko -> pycrypto[version='>=2.1,!=2.4,<3.0']
+spyder -> paramiko -> pycrypto[version='>=2.1,!=2.4,<3.0']
+pycrypto
+
+Package powershell_shortcut conflicts for:
+powershell_shortcut
+anaconda==2020.07=py38_0 -> powershell_shortcut==0.0.1=3
+
+Package python-language-server conflicts for:
+python-language-server
+anaconda==2020.07=py38_0 -> spyder==4.1.4=py38_0 -> python-language-server[version='>=0.34.0,<1.0.0']
+anaconda==2020.07=py38_0 -> python-language-server==0.34.1=py38_0
+spyder -> python-language-server[version='>=0.31.2,<0.32.0|>=0.31.9,<0.32.0|>=0.34.0,<1.0.0']
+
+Package krb5 conflicts for:
+anaconda==2020.07=py38_0 -> krb5==1.18.2=hc04afaa_0
+libcurl -> krb5[version='>=1.16.1,<1.17.0a0|>=1.17.1,<1.18.0a0|>=1.18.2,<1.19.0a0']
+curl -> krb5[version='>=1.16.1,<1.17.0a0|>=1.17.1,<1.18.0a0|>=1.18.2,<1.19.0a0']
+pycurl -> libcurl[version='>=7.71.1,<8.0a0'] -> krb5[version='>=1.16.1,<1.17.0a0|>=1.17.1,<1.18.0a0|>=1.18.2,<1.19.0a0']
+krb5
+anaconda==2020.07=py38_0 -> curl==7.71.1=h2a8f88b_1 -> krb5[version='>=1.18.2,<1.19.0a0']
+
+Package backports.tempfile conflicts for:
+conda-build -> conda-verify -> backports.tempfile
+backports.tempfile
+conda-verify -> backports.tempfile
+
+Package sympy conflicts for:
+anaconda==2020.07=py38_0 -> sympy==1.6.1=py38_0
+sympy
+
+Package coverage conflicts for:
+hypothesis -> coverage
+attrs -> hypothesis -> coverage
+pytest-astropy -> hypothesis -> coverage
+
+Package typed-ast conflicts for:
+astroid -> typed-ast[version='>=1.3.0|>=1.4.0,<1.5']
+pylint -> astroid[version='>=2.4.0,<=2.5'] -> typed-ast[version='>=1.3.0|>=1.4.0,<1.5']
+
+Package tblib conflicts for:
+distributed -> tblib[version='>=1.6.0']
+anaconda==2020.07=py38_0 -> tblib==1.6.0=py_0
+dask -> distributed[version='>=2.30.0'] -> tblib[version='>=1.6.0']
+tblib
+anaconda==2020.07=py38_0 -> distributed==2.20.0=py38_0 -> tblib[version='>=1.6.0']
+
+Package pycurl conflicts for:
+pycurl
+anaconda==2020.07=py38_0 -> pycurl==7.43.0.5=py38h7a1dbc1_0
+
+Package jupyterlab conflicts for:
+jupyterlab
+anaconda==2020.07=py38_0 -> jupyterlab==2.1.5=py_0
+_ipyw_jlab_nb_ext_conf -> jupyterlab
+
+Package lxml conflicts for:
+anaconda==2020.07=py38_0 -> lxml==4.5.2=py38h1350720_0
+lxml
+
+Package jupyterlab_launcher conflicts for:
+_ipyw_jlab_nb_ext_conf -> jupyterlab -> jupyterlab_launcher[version='>=0.10.0,<0.11.0|>=0.11.0,<0.12.0|>=0.11.2,<0.12.0|>=0.13.1,<0.14.0|>=0.6.0,<0.7.0|>=0.4.0']
+jupyterlab -> jupyterlab_launcher[version='>=0.10.0,<0.11.0|>=0.11.0,<0.12.0|>=0.11.2,<0.12.0|>=0.13.1,<0.14.0|>=0.6.0,<0.7.0|>=0.4.0']
+
+Package typing_extensions conflicts for:
+dask -> bokeh[version='>=1.0.0,!=2.0.0'] -> typing_extensions[version='>=3.7.4']
+anaconda==2020.07=py38_0 -> typing_extensions==3.7.4.2=py_0
+anaconda==2020.07=py38_0 -> bokeh==2.1.1=py38_0 -> typing_extensions[version='>=3.7.4']
+bokeh -> typing_extensions[version='>=3.7.4']
+
+Package pytest-astropy conflicts for:
+pytest-astropy
+astropy -> pytest-astropy
+
+Package xlwings conflicts for:
+xlwings
+anaconda==2020.07=py38_0 -> xlwings==0.19.5=py38_0
+
+Package seaborn conflicts for:
+anaconda==2020.07=py38_0 -> seaborn==0.10.1=py_0
+seaborn
+
+Package get_terminal_size conflicts for:
+get_terminal_size
+anaconda==2020.07=py38_0 -> get_terminal_size==1.0.0=h38e98db_0
+
+Package contextvars conflicts for:
+dask -> distributed[version='>=2.30.0'] -> contextvars
+distributed -> contextvars
+
+Package menuinst conflicts for:
+menuinst
+conda-build -> conda[version='>=4.5'] -> menuinst[version='>=1.4.11,<2']
+anaconda==2020.07=py38_0 -> menuinst==1.4.16=py38he774522_1
+
+Package conda-verify conflicts for:
+conda-build -> conda-verify
+conda-verify
+
+Package pytables conflicts for:
+pytables
+anaconda==2020.07=py38_0 -> pytables==3.6.1=py38ha5be198_0
+
+
+-------
