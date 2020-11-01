@@ -1,0 +1,151 @@
+python -m apache_beam.examples.wordcount --input /input/randj.txt --output /output/wordcounts
+
+INFO:root:Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
+Traceback (most recent call last):
+  File "C:\tools\Anaconda3\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\tools\Anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\examples\wordcount.py", line 99, in <module>
+    run()
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\examples\wordcount.py", line 77, in run
+    lines = p | 'Read' >> ReadFromText(known_args.input)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\textio.py", line 565, in __init__
+    self._source = self._source_class(
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\textio.py", line 127, in __init__
+    super(_TextSource, self).__init__(
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\filebasedsource.py", line 128, in __init__
+    self._validate()
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\options\value_provider.py", line 135, in _f
+    return fnc(self, *args, **kwargs)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\filebasedsource.py", line 191, in _validate
+    raise IOError('No files found based on the file pattern %s' % pattern)
+OSError: No files found based on the file pattern /input/randj.txt
+
+(base) C:\Users\dcase\Documents\44517\google-cloud-big-data\examples>python -m apache_beam.examples.wordcount --input input/randj.txt --output output/wordcounts
+INFO:root:Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function annotate_downstream_side_inputs at 0x0000015323B8E790> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function fix_side_input_pcoll_coders at 0x0000015323B8E8B0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function eliminate_common_key_with_none at 0x0000015323B8E9D0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function pack_combiners at 0x0000015323B8EA60> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function lift_combiners at 0x0000015323B8EAF0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_sdf at 0x0000015323B8EB80> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function expand_gbk at 0x0000015323B8EC10> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sink_flattens at 0x0000015323B8ED30> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function greedily_fuse at 0x0000015323B8EDC0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function read_to_impulse at 0x0000015323B8EE50> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function impulse_to_input at 0x0000015323B8EEE0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function sort_stages at 0x0000015323B92160> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function setup_timer_mapping at 0x0000015323B920D0> ====================
+INFO:apache_beam.runners.portability.fn_api_runner.translations:==================== <function populate_data_channel_coders at 0x0000015323B921F0> ====================
+INFO:apache_beam.runners.worker.statecache:Creating state cache with size 100
+INFO:apache_beam.runners.portability.fn_api_runner.worker_handlers:Created Worker handler <apache_beam.runners.portability.fn_api_runner.worker_handlers.EmbeddedWorkerHandler object at 0x0000015323CE4DF0> for environment ref_Environment_default_environment_1 (beam:env:embedded_python:v1, b'')
+INFO:apache_beam.runners.portability.fn_api_runner.fn_runner:Running (((((ref_AppliedPTransform_Write/Write/WriteImpl/DoOnce/Impulse_18)+(ref_AppliedPTransform_Write/Write/WriteImpl/DoOnce/FlatMap(<lambda at core.py:2945>)_19))+(ref_AppliedPTransform_Write/Write/WriteImpl/DoOnce/Map(decode)_21))+(ref_AppliedPTransform_Write/Write/WriteImpl/InitializeWrite_22))+(ref_PCollection_PCollection_10/Write))+(ref_PCollection_PCollection_11/Write)
+Traceback (most recent call last):
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\localfilesystem.py", line 82, in mkdirs
+    os.makedirs(path)
+  File "C:\tools\Anaconda3\lib\os.py", line 223, in makedirs
+    mkdir(name, mode)
+FileNotFoundError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\dcase\\Documents\\44517\\google-cloud-big-data\\examples\\output\\beam-temp-wordcounts-743fbdd11c9b11eb9cbf005056c00008'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "apache_beam\runners\common.py", line 1213, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam\runners\common.py", line 742, in apache_beam.runners.common.PerWindowInvoker.invoke_process
+  File "apache_beam\runners\common.py", line 867, in apache_beam.runners.common.PerWindowInvoker._invoke_process_per_window
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\transforms\core.py", line 1616, in <lambda>
+    wrapper = lambda x, *args, **kwargs: [fn(x, *args, **kwargs)]
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\iobase.py", line 1015, in <lambda>
+    lambda _, sink: sink.initialize_write(), self.sink)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\options\value_provider.py", line 135, in _f
+    return fnc(self, *args, **kwargs)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\filebasedsink.py", line 168, in initialize_write
+    FileSystems.mkdirs(tmp_dir)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\filesystems.py", line 170, in mkdirs
+    return filesystem.mkdirs(path)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\localfilesystem.py", line 84, in mkdirs
+    raise IOError(err)
+OSError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\dcase\\Documents\\44517\\google-cloud-big-data\\examples\\output\\beam-temp-wordcounts-743fbdd11c9b11eb9cbf005056c00008'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\tools\Anaconda3\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\tools\Anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\examples\wordcount.py", line 99, in <module>
+    run()
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\examples\wordcount.py", line 94, in run
+    output | 'Write' >> WriteToText(known_args.output)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\pipeline.py", line 568, in __exit__
+    self.result = self.run()
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\pipeline.py", line 547, in run
+    return self.runner.run_pipeline(self, self._options)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\runners\direct\direct_runner.py", line 119, in run_pipeline
+    return runner.run_pipeline(pipeline, options)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\runners\portability\fn_api_runner\fn_runner.py", line 175, in run_pipeline
+    self._latest_run_result = self.run_via_runner_api(
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\runners\portability\fn_api_runner\fn_runner.py", line 186, in run_via_runner_api
+    return self.run_stages(stage_context, stages)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\runners\portability\fn_api_runner\fn_runner.py", line 344, in run_stages
+    stage_results = self._run_stage(
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\runners\portability\fn_api_runner\fn_runner.py", line 527, in _run_stage
+    last_result, deferred_inputs, fired_timers = self._run_bundle(
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\runners\portability\fn_api_runner\fn_runner.py", line 571, in _run_bundle
+    result, splits = bundle_manager.process_bundle(
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\runners\portability\fn_api_runner\fn_runner.py", line 852, in process_bundle
+    result_future = self._worker_handler.control_conn.push(process_bundle_req)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\runners\portability\fn_api_runner\worker_handlers.py", line 353, in push
+    response = self.worker.do_instruction(request)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\runners\worker\sdk_worker.py", line 483, in do_instruction
+    return getattr(self, request_type)(
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\runners\worker\sdk_worker.py", line 519, in process_bundle
+    bundle_processor.process_bundle(instruction_id))
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\runners\worker\bundle_processor.py", line 984, in process_bundle
+    input_op_by_transform_id[element.transform_id].process_encoded(
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\runners\worker\bundle_processor.py", line 221, in process_encoded
+    self.output(decoded_value)
+  File "apache_beam\runners\worker\operations.py", line 354, in apache_beam.runners.worker.operations.Operation.output
+  File "apache_beam\runners\worker\operations.py", line 356, in apache_beam.runners.worker.operations.Operation.output
+  File "apache_beam\runners\worker\operations.py", line 218, in apache_beam.runners.worker.operations.SingletonConsumerSet.receive
+  File "apache_beam\runners\worker\operations.py", line 703, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam\runners\worker\operations.py", line 704, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam\runners\common.py", line 1215, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam\runners\common.py", line 1279, in apache_beam.runners.common.DoFnRunner._reraise_augmented
+  File "apache_beam\runners\common.py", line 1213, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam\runners\common.py", line 569, in apache_beam.runners.common.SimpleInvoker.invoke_process
+  File "apache_beam\runners\common.py", line 1374, in apache_beam.runners.common._OutputProcessor.process_outputs
+  File "apache_beam\runners\worker\operations.py", line 218, in apache_beam.runners.worker.operations.SingletonConsumerSet.receive
+  File "apache_beam\runners\worker\operations.py", line 703, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam\runners\worker\operations.py", line 704, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam\runners\common.py", line 1215, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam\runners\common.py", line 1279, in apache_beam.runners.common.DoFnRunner._reraise_augmented
+  File "apache_beam\runners\common.py", line 1213, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam\runners\common.py", line 569, in apache_beam.runners.common.SimpleInvoker.invoke_process
+  File "apache_beam\runners\common.py", line 1374, in apache_beam.runners.common._OutputProcessor.process_outputs
+  File "apache_beam\runners\worker\operations.py", line 155, in apache_beam.runners.worker.operations.ConsumerSet.receive
+  File "apache_beam\runners\worker\operations.py", line 703, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam\runners\worker\operations.py", line 704, in apache_beam.runners.worker.operations.DoOperation.process
+  File "apache_beam\runners\common.py", line 1215, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam\runners\common.py", line 1294, in apache_beam.runners.common.DoFnRunner._reraise_augmented
+  File "C:\tools\Anaconda3\lib\site-packages\future\utils\__init__.py", line 446, in raise_with_traceback
+    raise exc.with_traceback(traceback)
+  File "apache_beam\runners\common.py", line 1213, in apache_beam.runners.common.DoFnRunner.process
+  File "apache_beam\runners\common.py", line 742, in apache_beam.runners.common.PerWindowInvoker.invoke_process
+  File "apache_beam\runners\common.py", line 867, in apache_beam.runners.common.PerWindowInvoker._invoke_process_per_window
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\transforms\core.py", line 1616, in <lambda>
+    wrapper = lambda x, *args, **kwargs: [fn(x, *args, **kwargs)]
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\iobase.py", line 1015, in <lambda>
+    lambda _, sink: sink.initialize_write(), self.sink)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\options\value_provider.py", line 135, in _f
+    return fnc(self, *args, **kwargs)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\filebasedsink.py", line 168, in initialize_write
+    FileSystems.mkdirs(tmp_dir)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\filesystems.py", line 170, in mkdirs
+    return filesystem.mkdirs(path)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\localfilesystem.py", line 84, in mkdirs
+    raise IOError(err)
+RuntimeError: OSError: [WinError 3] The system cannot find the path specified: 'C:\\Users\\dcase\\Documents\\44517\\google-cloud-big-data\\examples\\output\\beam-temp-wordcounts-743fbdd11c9b11eb9cbf005056c00008' [while running 'Write/Write/WriteImpl/InitializeWrite']
+

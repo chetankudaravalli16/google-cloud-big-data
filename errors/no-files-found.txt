@@ -1,0 +1,23 @@
+python -m apache_beam.examples.wordcount --input /input/randj.txt --output /output/wordcounts
+
+INFO:root:Missing pipeline option (runner). Executing pipeline using the default runner: DirectRunner.
+Traceback (most recent call last):
+  File "C:\tools\Anaconda3\lib\runpy.py", line 194, in _run_module_as_main
+    return _run_code(code, main_globals, None,
+  File "C:\tools\Anaconda3\lib\runpy.py", line 87, in _run_code
+    exec(code, run_globals)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\examples\wordcount.py", line 99, in <module>
+    run()
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\examples\wordcount.py", line 77, in run
+    lines = p | 'Read' >> ReadFromText(known_args.input)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\textio.py", line 565, in __init__
+    self._source = self._source_class(
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\textio.py", line 127, in __init__
+    super(_TextSource, self).__init__(
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\filebasedsource.py", line 128, in __init__
+    self._validate()
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\options\value_provider.py", line 135, in _f
+    return fnc(self, *args, **kwargs)
+  File "C:\tools\Anaconda3\lib\site-packages\apache_beam\io\filebasedsource.py", line 191, in _validate
+    raise IOError('No files found based on the file pattern %s' % pattern)
+OSError: No files found based on the file pattern /input/randj.txt
