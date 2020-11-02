@@ -60,7 +60,11 @@ change directory to the examples folder of this repo and run:
 
 ```Anaconda
 cls
-python -m apache_beam.examples.wordcount --input input/randj.txt --output output/wordcounts
+python -m apache_beam.examples.wordcount_minimal --input input/randj.txt --output output/wc01
+python -m apache_beam.examples.wordcount --input input/randj.txt --output output/wc02
+python -m apache_beam.examples.wordcount_debugging  --input input/randj.txt --output output/wc03
+python -m apache_beam.examples.windowed_wordcount  --input input/randj.txt --output output/wc04
+
 ```
 
 ## Possible Errors
@@ -94,10 +98,11 @@ conda install -c intel mkl-service
 
 ## More Examples
 
-- [Examples](https://github.com/apache/beam/tree/master/sdks/python/apache_beam/examples)
+- [Code Examples](https://github.com/apache/beam/tree/master/sdks/python/apache_beam/examples)
 
 ## Resources
 
--[Apache Beam Quickstart - Python](https://beam.apache.org/get-started/quickstart-py/)
--[Force update numpy](https://stackoverflow.com/questions/52792692/anaconda-python-how-to-reinstall-numpy/55363764)
--[Trouble-shooting setup](https://github.com/conda/conda/issues/7714)
+- [Apache Beam Quickstart - Python](https://beam.apache.org/get-started/quickstart-py/)
+- [Apache Beam WordCount Examples](https://beam.apache.org/get-started/wordcount-example/)
+- [Force update numpy](https://stackoverflow.com/questions/52792692/anaconda-python-how-to-reinstall-numpy/55363764)
+- [Trouble-shooting setup](https://github.com/conda/conda/issues/7714)
