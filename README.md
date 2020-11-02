@@ -46,6 +46,7 @@ python -m pip install --upgrade virtualenv
 python -m pip install --upgrade setuptools
 python -m pip install apache-beam
 python -m pip install apache-beam[gcp]
+python -m pip install apache-beam[test]
 ```
 
 ## Execute a Pipeline
@@ -62,9 +63,7 @@ change directory to the examples folder of this repo and run:
 cls
 python -m apache_beam.examples.wordcount_minimal --input input/randj.txt --output output/wc01
 python -m apache_beam.examples.wordcount --input input/randj.txt --output output/wc02
-python -m apache_beam.examples.wordcount_debugging  --input input/randj.txt --output output/wc03
-python -m apache_beam.examples.windowed_wordcount  --input input/randj.txt --output output/wc04
-
+python -m apache_beam.examples.wordcount_debugging --output output/wc03
 ```
 
 ## Possible Errors
@@ -106,3 +105,4 @@ conda install -c intel mkl-service
 - [Apache Beam WordCount Examples](https://beam.apache.org/get-started/wordcount-example/)
 - [Force update numpy](https://stackoverflow.com/questions/52792692/anaconda-python-how-to-reinstall-numpy/55363764)
 - [Trouble-shooting setup](https://github.com/conda/conda/issues/7714)
+- ['pip install' vs 'python -m pip install'](https://stackoverflow.com/questions/25749621/whats-the-difference-between-pip-install-and-python-m-pip-install#:~:text=1%20Answer&text=They%20do%20exactly%20the%20same,actually%20run%20pip%20that%20way.)
