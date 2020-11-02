@@ -60,9 +60,7 @@ change directory to the examples folder of this repo and run:
 
 ```Anaconda
 cls
-
 python -m apache_beam.examples.wordcount --input input/randj.txt --output output/wordcounts
-
 ```
 
 ## Possible Errors
